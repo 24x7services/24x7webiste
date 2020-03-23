@@ -648,7 +648,7 @@ section {
 .about .section-title p {
   text-align: left;
   /*font-style: italic;*/
-  color: #fff;
+  color: #afa792;
 }
 
 .no-gutters img.img-fluid {
@@ -966,7 +966,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #428bca;
+  background: #afa792;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -974,11 +974,11 @@ section {
 .services .description {
   line-height: 24px;
   font-size: 14px;
-  color: #e4e4e4;
+  color: #afa792;
 }
 
 .services .title a {
-    color: #e2e9ef;
+    color: #afa792;
 }
 
 /*--------------------------------------------------------------
