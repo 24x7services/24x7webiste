@@ -792,7 +792,7 @@ section {
   border-radius: 0;
 }
 
-.txt-blue {
+.logo-txt {
   color: #afa792;
 }
 
@@ -1272,7 +1272,7 @@ section {
   width: 100%;
 }
 
-.contact .info-box i {
+.contact .info-box i, .career .info-box i {
     font-size: 32px;
     color: #afa792;
     border-radius: 50%;
@@ -2213,6 +2213,16 @@ a.section-static.top {
 }
 
 /*flip modal*/
+
+.career {
+        background: linear-gradient(to right, rgb(11, 19, 27), rgb(29, 63, 93));
+      position: relative;
+  width: 100%;
+  /*height: 100vh;*/
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .contact {
         background: linear-gradient(to right, rgb(11, 19, 27), rgb(29, 63, 93));
       position: relative;
@@ -2228,3 +2238,27 @@ a.section-static.top {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.career-logo {
+    position: relative;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.career .info-box{
+  color: #444;
+  text-align: center;
+  /*box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);*/
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.31); 
+  padding: 20px 0 30px 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.career .info-box p{
+  color: #afa792;
+  padding: 10px;
+}
+
